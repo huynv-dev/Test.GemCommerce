@@ -67,7 +67,7 @@ export default function UnitValue() {
               className={`w-full cursor-pointer flex items-center justify-center rounded-[6px] text-xs leading-5 font-medium tracking-[0] font-inter transition-colors transition-border duration-150 border-none px-7 py-1 ${
                 unit === "%"
                   ? "bg-[#444] text-[#F9F9F9]"
-                  : "text-[#F9F9F9]/60 hover:bg-[#232323]"
+                  : "hover:bg-[#232323]"
               }`}
             >
               %
@@ -77,7 +77,7 @@ export default function UnitValue() {
               className={`w-full cursor-pointer flex items-center justify-center rounded-[6px] text-xs leading-5 font-medium tracking-[0] font-inter transition-colors transition-border duration-150 border-none px-7 py-1 ${
                 unit === "px"
                   ? "bg-[#444] text-[#F9F9F9]"
-                  : "text-[#F9F9F9]/60 hover:bg-[#232323]"
+                  : "hover:bg-[#232323]"
               }`}
             >
               px
