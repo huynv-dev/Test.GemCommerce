@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+.value-group:has(input:hover) {
+  background-color: #444 !important;
+  transition: background 0.15s;
+}
+.step-input{
+    max-width: 65px;
+}
+.item{
+    width: 146px;
+}
