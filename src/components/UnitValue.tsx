@@ -64,9 +64,9 @@ export default function UnitValue() {
           <div className="item flex bg-[#232323] rounded-[6px] p-1">
             <button
               onClick={() => handleUnitSwitch("%")}
-              className={`w-full cursor-pointer flex items-center justify-center rounded-[6px] text-xs leading-5 font-medium tracking-[0] font-inter transition-colors transition-border duration-150 border-none px-7 py-1 ${
+              className={`w-full text-[#F9F9F9] cursor-pointer flex items-center justify-center rounded-[6px] text-xs leading-5 font-medium tracking-[0] font-inter transition-colors transition-border duration-150 border-none px-7 py-1 ${
                 unit === "%"
-                  ? "bg-[#444] text-[#F9F9F9]"
+                  ? "bg-[#444]"
                   : "hover:bg-[#232323]"
               }`}
             >
@@ -74,9 +74,9 @@ export default function UnitValue() {
             </button>
             <button
               onClick={() => handleUnitSwitch("px")}
-              className={`w-full cursor-pointer flex items-center justify-center rounded-[6px] text-xs leading-5 font-medium tracking-[0] font-inter transition-colors transition-border duration-150 border-none px-7 py-1 ${
+              className={`w-full cursor-pointer text-[#F9F9F9] flex items-center justify-center rounded-[6px] text-xs leading-5 font-medium tracking-[0] font-inter transition-colors transition-border duration-150 border-none px-7 py-1 ${
                 unit === "px"
-                  ? "bg-[#444] text-[#F9F9F9]"
+                  ? "bg-[#444]"
                   : "hover:bg-[#232323]"
               }`}
             >
